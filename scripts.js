@@ -19,9 +19,9 @@ document.getElementById("addItemForm").addEventListener("submit", function(event
     const newProduct = {
         name: formData.get("productName"),
         description: formData.get("description"),
-        price: parseInt(formData.get("productPrice")) // Capture and parse price as integer
+        price: parseInt(formData.get("productPrice")) 
     };
-    fetch('/api/addProduct', {
+    fetch('foodproducts.azurewebsites.net/api/addProduct', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

@@ -2,7 +2,7 @@
 
 //     // Function to fetch and render the list of products
 // function fetchProducts() {
-//     fetch('/api/listProducts') // Assuming this endpoint is configured on your backend server
+//     fetch('foodproducts.azurewebsites.net/api/listProducts') // Assuming this endpoint is configured on your backend server
 //         .then(response => {
 //             if (!response.ok) {
 //                 throw new Error('Failed to fetch products');

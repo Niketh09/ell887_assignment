@@ -26,7 +26,7 @@ function displayProducts(products) {
 }
 
 function fetchProducts() {
-    fetch('/foodproducts.azurewebsites.net/api/listProducts') 
+    fetch('https://foodproducts.azurewebsites.net/api/listProducts') 
         .then(response => {
             if (!response.ok) {
                 throw new Error('Failed to fetch products');
